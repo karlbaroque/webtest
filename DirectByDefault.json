@@ -1,0 +1,36 @@
+[
+  {
+    "port": "0-65535",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "protocol": [
+      "http",
+      "tls",
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:geolocation-!cn",
+      "ext:h2y.dat:gfw"
+    ],
+    "protocol": [
+      "http",
+      "tls",
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "protocol": [
+      "http",
+      "tls",
+      "bittorrent"
+    ]
+  }
+]
