@@ -25,6 +25,23 @@
   },
   {
     "port": "0-65535",
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:jp",
+      "geoip:hk",
+      "geoip:tw",
+      "geoip:sg",
+      "geoip:us",
+      "geoip:ca"
+    ],
+    "protocol": [
+      "http",
+      "tls",
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "0-65535",
     "outboundTag": "direct",
     "protocol": [
       "http",
