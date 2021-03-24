@@ -2,6 +2,7 @@
   {
     "port": "0-65535",
     "outboundTag": "block",
+    "ip": [],
     "domain": [
       "geosite:category-ads-all"
     ],
@@ -13,9 +14,13 @@
   },
   {
     "port": "0-65535",
-    "outboundTag": "proxy",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
     "domain": [
-      "geosite:geolocation-!cn"
+      "geosite:cn"
     ],
     "protocol": [
       "http",
@@ -25,7 +30,7 @@
   },
   {
     "port": "0-65535",
-    "outboundTag": "direct",
+    "outboundTag": "proxy",
     "protocol": [
       "http",
       "tls",
