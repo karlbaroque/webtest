@@ -15,8 +15,7 @@
     "port": "0-65535",
     "outboundTag": "proxy",
     "domain": [
-      "geosite:geolocation-!cn",
-      "ext:h2y.dat:gfw"
+      "geosite:geolocation-!cn"
     ],
     "protocol": [
       "http",
