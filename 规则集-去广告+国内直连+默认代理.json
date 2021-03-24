@@ -4,8 +4,7 @@
     "outboundTag": "block",
     "ip": [],
     "domain": [
-      "geosite:category-ads-all",
-      "ext:h2y.dat:ad"
+      "geosite:category-ads-all"
     ],
     "protocol": [
       "http",
