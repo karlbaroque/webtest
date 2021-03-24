@@ -2,7 +2,6 @@
   {
     "port": "0-65535",
     "outboundTag": "block",
-    "ip": [],
     "domain": [
       "geosite:category-ads-all",
       "ext:h2y.dat:ad"
@@ -16,12 +15,21 @@
   {
     "port": "0-65535",
     "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ],
+    "protocol": [
+      "http",
+      "tls",
+      "bittorrent"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
     "ip": [
       "geoip:private",
       "geoip:cn"
-    ],
-    "domain": [
-      "geosite:cn"
     ],
     "protocol": [
       "http",
