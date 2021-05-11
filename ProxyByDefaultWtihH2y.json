@@ -5,11 +5,6 @@
     "domain": [
       "geosite:category-ads-all",
       "ext:h2y.dat:ad"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
@@ -17,11 +12,6 @@
     "outboundTag": "direct",
     "domain": [
       "geosite:cn"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
@@ -30,20 +20,10 @@
     "ip": [
       "geoip:private",
       "geoip:cn"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
     "port": "0-65535",
-    "outboundTag": "proxy",
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
-    ]
+    "outboundTag": "proxy"
   }
 ]
