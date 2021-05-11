@@ -4,11 +4,6 @@
     "outboundTag": "block",
     "domain": [
       "geosite:category-ads-all"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
@@ -16,11 +11,6 @@
     "outboundTag": "proxy",
     "domain": [
       "geosite:geolocation-!cn"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
@@ -33,20 +23,10 @@
       "geoip:sg",
       "geoip:us",
       "geoip:ca"
-    ],
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
     ]
   },
   {
     "port": "0-65535",
-    "outboundTag": "direct",
-    "protocol": [
-      "http",
-      "tls",
-      "bittorrent"
-    ]
+    "outboundTag": "direct"
   }
 ]
