@@ -2,9 +2,15 @@
   {
     "port": "0-65535",
     "outboundTag": "block",
-    "ip": [],
     "domain": [
       "geosite:category-ads-all"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
     ]
   },
   {
@@ -13,9 +19,6 @@
     "ip": [
       "geoip:private",
       "geoip:cn"
-    ],
-    "domain": [
-      "geosite:cn"
     ]
   },
   {
