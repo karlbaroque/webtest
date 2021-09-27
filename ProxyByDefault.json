@@ -1,28 +1,41 @@
 [
   {
-    "port": "0-65535",
+    "port": "",
+    "inboundTag": [],
     "outboundTag": "block",
+    "ip": [],
     "domain": [
       "geosite:category-ads-all"
-    ]
+    ],
+    "protocol": []
   },
   {
-    "port": "0-65535",
-    "outboundTag": "direct",
-    "domain": [
-      "geosite:cn"
-    ]
-  },
-  {
-    "port": "0-65535",
+    "port": "",
+    "inboundTag": [],
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
       "geoip:cn"
-    ]
+    ],
+    "domain": [],
+    "protocol": []
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [
+      "geosite:cn"
+    ],
+    "protocol": []
   },
   {
     "port": "0-65535",
-    "outboundTag": "proxy"
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [],
+    "protocol": []
   }
 ]
