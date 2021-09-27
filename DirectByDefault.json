@@ -11,27 +11,6 @@
   },
   {
     "port": "",
-    "inboundTag": [],
-    "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ],
-    "domain": [],
-    "protocol": []
-  },
-  {
-    "port": "",
-    "inboundTag": [],
-    "outboundTag": "direct",
-    "ip": [],
-    "domain": [
-      "geosite:cn"
-    ],
-    "protocol": []
-  },
-  {
-    "port": "",
     "outboundTag": "proxy",
     "domain": [
       "geosite:geolocation-!cn"
