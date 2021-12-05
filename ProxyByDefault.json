@@ -2,21 +2,43 @@
   {
     "inboundTag": [],
     "outboundTag": "direct",
-    "ip": [
-      "geoip:private",
-      "geoip:cn"
-    ]
+    "domain": [
+      "domain:jmssub.net"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "protocol": [],
+    "enabled": true
   },
   {
     "inboundTag": [],
     "outboundTag": "direct",
     "domain": [
       "geosite:cn"
-    ]
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ],
+    "enabled": true
   },
   {
     "port": "0-65535",
     "inboundTag": [],
-    "outboundTag": "proxy"
+    "outboundTag": "proxy",
+    "enabled": true
   }
 ]
