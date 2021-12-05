@@ -1,29 +1,45 @@
 [
   {
-    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "domain:jmssub.net"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
     "outboundTag": "block",
+    "ip": [],
     "domain": [
       "geosite:category-ads-all",
       "ext:h2y.dat:ad"
-    ]
+    ],
+    "protocol": [],
+    "enabled": true
   },
   {
-    "port": "0-65535",
+    "inboundTag": [],
     "outboundTag": "direct",
     "domain": [
       "geosite:cn"
-    ]
+    ],
+    "enabled": true
   },
   {
-    "port": "0-65535",
+    "inboundTag": [],
     "outboundTag": "direct",
     "ip": [
       "geoip:private",
       "geoip:cn"
-    ]
+    ],
+    "enabled": true
   },
   {
     "port": "0-65535",
-    "outboundTag": "proxy"
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "enabled": true
   }
 ]
