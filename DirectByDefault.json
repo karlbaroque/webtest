@@ -1,37 +1,48 @@
 [
   {
-    "port": "",
     "inboundTag": [],
     "outboundTag": "block",
-    "ip": [],
     "domain": [
       "geosite:category-ads-all"
     ],
-    "protocol": []
+    "enabled": true
   },
   {
-    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "domain": [
+      "domain:jmssub.net"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
     "outboundTag": "proxy",
     "domain": [
       "geosite:geolocation-!cn"
-    ]
+    ],
+    "enabled": true
   },
   {
-    "port": "",
+    "inboundTag": [],
     "outboundTag": "proxy",
     "ip": [
-      "geoip:jp",
-      "geoip:hk",
-      "geoip:tw",
-      "geoip:sg",
-      "geoip:us",
-      "geoip:ca"
-    ]
+      "geoip:!cn"
+    ],
+    "enabled": true
   },
   {
-    "port": "",
+    "port": "0-65535",
     "inboundTag": [],
     "outboundTag": "direct",
-    "protocol": []
+    "enabled": true
   }
 ]
