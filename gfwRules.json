@@ -1,0 +1,35 @@
+[
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geostie:category-ads-all"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "geosite:gfw",
+      "geosite:greatfire",
+      "ext:h2y.dat:gfw"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [],
+    "enabled": true
+  }
+]
