@@ -1,0 +1,52 @@
+[
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [
+      "geoip:private"
+    ],
+    "domain": [],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "block",
+    "ip": [],
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [],
+    "domain": [
+      "geosite:cn"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:cn"
+    ],
+    "domain": [],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "enabled": true
+  }
+]
