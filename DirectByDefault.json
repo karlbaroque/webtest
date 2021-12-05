@@ -1,17 +1,17 @@
 [
   {
     "inboundTag": [],
-    "outboundTag": "block",
+    "outboundTag": "direct",
     "domain": [
-      "geosite:category-ads-all"
+      "domain:jmssub.net"
     ],
     "enabled": true
   },
   {
     "inboundTag": [],
-    "outboundTag": "direct",
+    "outboundTag": "block",
     "domain": [
-      "domain:jmssub.net"
+      "geosite:category-ads-all"
     ],
     "enabled": true
   },
