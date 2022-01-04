@@ -8,17 +8,6 @@
     "enabled": true
   },
   {
-    "port": "",
-    "inboundTag": [],
-    "outboundTag": "block",
-    "ip": [],
-    "domain": [
-      "geosite:category-ads-all"
-    ],
-    "protocol": [],
-    "enabled": true
-  },
-  {
     "inboundTag": [],
     "outboundTag": "direct",
     "domain": [
